@@ -67,17 +67,6 @@ def get_movie_info():
     reset_text_box()
 
 
-# THINGS WE WANT TO GET FROM API: Title, Year, Rated, Released, Runtime, Genre, Metascore
-
-# PLAN: GUI has Entry box for Imdb movie ID and a get information button...
-# - get information button initiates the API call and resets the text box
-# - after information is retrieved a series of labels that are set at N/A
-# - by default are modified by a function
-# - depending on the Genre a picture is shown to represent the Genre?
-# - pictures are stored in same file as python script?
-# - GUI elements: entry, buttons, labels, field(place labels on), image displayer?
-
-
 # setup tkinter window
 root = tk.Tk()
 root.geometry("550x550")
