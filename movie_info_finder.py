@@ -29,7 +29,7 @@ def get_movie_info():
 
     headers = {
         'x-rapidapi-host': "movie-database-imdb-alternative.p.rapidapi.com",
-        'x-rapidapi-key': "182ad95b56mshd51aa48f427222dp1777b2jsn5e6f9abd8f02"
+        'x-rapidapi-key': "API_KEY_HERE"
     }
     # pattern to do last check before sending request
     final_check = bool(re.match(r"[a-z]+[0-9]+", imdb_id))
